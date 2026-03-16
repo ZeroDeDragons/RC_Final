@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://b6cnatfinsfex"]
+
+[ext_resource type="Script" uid="uid://bpf6vjgeldmeh" path="res://ClassePersonagem/NPC/Movimento/NPCMovimento.gd" id="1_0fhef"]
+
+[node name="NPCMovimentacao" type="Node2D" unique_id=828286328]
+script = ExtResource("1_0fhef")

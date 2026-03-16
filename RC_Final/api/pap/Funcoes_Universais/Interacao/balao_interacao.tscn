@@ -1,0 +1,67 @@
+[gd_scene format=3 uid="uid://dncw1h2y0j27p"]
+
+[ext_resource type="Texture2D" uid="uid://dm07afdxghfjp" path="res://Imagens/Balao_Interacao_Personagem.png" id="1_dtmy3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d8nv5"]
+atlas = ExtResource("1_dtmy3")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gt31y"]
+atlas = ExtResource("1_dtmy3")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v3wiu"]
+atlas = ExtResource("1_dtmy3")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hexpb"]
+atlas = ExtResource("1_dtmy3")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uhwdi"]
+atlas = ExtResource("1_dtmy3")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s5fcy"]
+atlas = ExtResource("1_dtmy3")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dl4xu"]
+atlas = ExtResource("1_dtmy3")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jfa47"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d8nv5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gt31y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v3wiu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hexpb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uhwdi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s5fcy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dl4xu")
+}],
+"loop": true,
+"name": &"Personagem",
+"speed": 3.0
+}]
+
+[node name="BalaoInteracao" type="AnimatedSprite2D" unique_id=1179396787]
+texture_filter = 1
+texture_repeat = 1
+sprite_frames = SubResource("SpriteFrames_jfa47")
+animation = &"Personagem"
+frame_progress = 0.09920864
