@@ -1,8 +1,0 @@
-[gd_scene format=3 uid="uid://bhtc4h32pvoyx"]
-
-[ext_resource type="Script" uid="uid://b0l2o4i2h6js0" path="res://ClassePersonagem/Personagem/CriarPersonagem.gd" id="1_s0ydl"]
-
-[node name="CriarPersonagem" type="Marker2D" unique_id=1155057117]
-script = ExtResource("1_s0ydl")
-movimentacao = true
-Tempo_Parado = 60.0
